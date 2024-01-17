@@ -1,0 +1,311 @@
+body {
+ background-image: url(my-background.jpg); 
+ height: 100%; 
+
+ background-size: cover;
+ background-repeat: repeat;
+
+ color: white;
+ font: arial;
+}
+
+h1, p {
+    display: flex;
+    justify-content: center;
+}
+
+.Entry-Area {
+    display: flex;
+    justify-content: center;
+    
+}
+.Hub-button {
+    width: 98.94px;
+
+}
+
+.Hub-button, .Store-button, .Fight-dragon-button {
+    position: relative;
+    color: white;
+   font-weight: bold;
+    height: 60px;
+    margin-right: 5px;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.Hub-button:hover, .Store-button:hover, .Fight-dragon-button:hover {
+height: 63px;
+border: 3px solid;
+border-color: greenyellow;
+box-shadow: 3px 5px black;
+opacity: 0.7;
+transition: 0.5s;
+}
+
+.active {
+    border-color: yellowgreen;
+}
+
+.hubArea {
+   font-size: larger;
+   
+}
+
+.newH1 {
+   margin-top: 100px;
+   color: rgb(0, 0, 0);
+  
+}
+
+
+.returnButton {
+    height: 60px;
+    width: 110px;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    
+    
+}
+
+.returnButton:hover {
+height: 63px;
+border: 3px solid;
+border-color: rgb(255, 71, 47);
+box-shadow: 3px 5px black;
+opacity: 0.7;
+transition: 0.5s;
+}
+
+
+
+
+.Store {
+    border: 3px solid black;
+    height: 400px;
+    width: 550px;
+    position: absolute;
+    top: 200px;
+    left: 25%;
+    background-color: white;
+}
+
+.StoreTitle {
+    color: black;
+    text-decoration: underline;
+
+}
+
+
+
+
+.ButtonSword {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: fit-content;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+  margin-left: 20px;
+  
+}
+
+.ButtonSword:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  height: 43px;
+  transition: 0.6s;
+}
+
+
+.ButtonAxe {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: fit-content;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+    margin-left: 180px;
+}
+
+.ButtonAxe:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  height: 43px;
+  transition: 0.6s;
+}
+
+
+.ButtonBow {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: fit-content;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+.ButtonBow:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+    height: 46px;
+    transition: 0.6s;
+}
+
+
+
+.FightArena {
+    border: 3px solid black;
+    height: 420px;
+    width: 320px;
+    position: absolute;
+    top: 220px;
+    background-color: white;
+    color: black;
+    margin-left: 40%;
+    text-align: center;
+    font-size: larger;
+    cursor: pointer;
+    
+}
+
+.Health {
+   font-size: larger; 
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   color: red;
+
+  
+}
+
+
+.FightButton {
+    font-weight: bold;
+    margin-top: 220px;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: fit-content;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+
+}
+
+.FightButton:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+    height: 46px;
+    transition: 0.6s;
+}
+
+
+
+
+
+
+
+
+.hubArea {
+    height: 420px;
+    width: 320px;
+    background-color: white;
+    margin-left: 40%;
+}
+
+.Contact {
+    font-size: large;
+   
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
